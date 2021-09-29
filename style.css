@@ -11,17 +11,17 @@ a {
     margin: 0
 }
 
-.menu {
+.button {
     padding: 0.2rem .5rem;
     border: 1px solid white;
     border-radius: 3px;
 }
 
-.site_main img {
+.hero_image img {
     height: 274px;
 }
 
-.site_main .row {
+.hero_image.row {
     height: 492px;
 }
 
@@ -30,7 +30,7 @@ a {
 }
 
 @media screen and (min-width:768px) {
-    .site_main .row {
+    .hero_image .row {
         height: 592px;
     }
 }
