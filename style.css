@@ -7,7 +7,7 @@ a {
     color: white;
 }
 
-.col>h5 {
+.col>h5, h1 {
     margin: 0
 }
 
@@ -15,4 +15,26 @@ a {
     padding: 0.2rem .5rem;
     border: 1px solid white;
     border-radius: 3px;
+}
+
+.site_main img {
+    height: 274px;
+}
+
+.site_main .row {
+    height: 492px;
+}
+
+.site_main .container-fluid {
+    background-color: #1abc9c;
+}
+
+body {
+    background-color: black;
+}
+
+@media screen and (min-width:768px) {
+    .site_main .row {
+        height: 592px;
+    }
 }
