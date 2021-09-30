@@ -18,29 +18,43 @@
     </head>
     <body>
         <header class="site_header">
-            <div class="container-fluid bg-dark text-white">
-                <div class="row align-items-center justify-content-lg-center">
-                    <div class="col text-start text-sm-center">
-                        <h5>START BOOTSTRAP</h5>
-                    </div>
-                    <div class="col d-sm-none text-end">
-                        <a href="" class="button"><i class="fas fa-bars"></i></a>
-                    </div>
-                    <div class="col d-none d-sm-block">
-                        <div class="row row-cols-auto justify-content-center
-                            align-items-center">
-                            <div class="col"><a href="">PORTFOLIO</a></div>
-                            <div class="col"><a href="">ABOUT</a></div>
-                            <div class="col"><a href="">CONTACT</a></div>
-                        </div>
+          
+            </div>
+            <nav class="navbar navbar-expand-md bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand  justify-content-start justify-content-md-center" href="#"><h5>START BOOTSTRAP</h5></a>
+                    <button class="navbar-toggler d-md-none border-white"
+                        type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapsibleNavId"
+                        aria-controls="collapsibleNavId"
+                        aria-expanded="false" aria-label="Toggle
+                        navigation">
+                        <span class="navbar-toggler-icon text-white "><i class="fas
+                                fa-bars"></i></span>
+                    </button>
+                    <div class="collapse navbar-collapse align-items-center justify-content-end"
+                        id="collapsibleNavId">
+                        <ul class="navbar-nav ms-auto mt-md-0 ">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">PORTFOLIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">CONTACT</a>
+                            </li>
+
+                        </ul>
                     </div>
                 </div>
-            </div>
+            </nav>
         </header>
         <!-- /.site_header -->
+
         <main class="site_main">
-            <div class="hero_image">
-                <div class="container-fluid text-white">
+            <div class="hero_image ">
+                <div class="container-fluid text-white py-md-5 py-3">
                     <div class="row row-cols-auto flex-column align-items-center
                         justify-content-center">
 
@@ -56,7 +70,7 @@
                 </div>
             </div>
             <div class="portfolio my-5">
-                <div class="container py-5">
+                <div class="container py-md-5 py-3">
                     <div class="col-12 text-center">
                         <h2>PORTFOLIO</h2>
                         <i class="fas
@@ -99,7 +113,7 @@
                 </div>
             </div>
             <div class="about">
-                <div class="container-fluid py-5 text-white">
+                <div class="container-fluid py-md-5 py-3 text-white">
                     <div class="row justify-content-center">
                         <div class="col-9 text-center my-2">
                             <h2>ABOUT</h2>
@@ -156,7 +170,7 @@
                 </div>
             </div>
             <div class="contact">
-                <div class="container-fluid py-5">
+                <div class="container-fluid py-md-5 py-3">
                     <div class="row justify-content-center">
                         <div class="col-9 text-center my-2">
                             <h2>CONTACT ME</h2>
@@ -197,8 +211,9 @@
             </div>
         </main>
         <!-- /.site_main -->
+        
         <footer class="site_footer">
-            <div class="container-fluid text-white py-5">
+            <div class="container-fluid text-white py-md-5 py-3">
                 <div class="row justify-content-center">
                     <div class="col-9">
                         <div class="row justify-content-center">
@@ -230,7 +245,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row end_site justify-content-center py-4 text-white">
+            <div class="row end_site justify-content-center py-4 text-white m-0">
                 <div class="col text-center">
                     <span>Lorem ipsum dolor sit amet.</span>
                 </div>
