@@ -31,6 +31,11 @@ a {
     border-radius: 0;
 }
 
+.contact label {
+    padding-left: 0;
+    padding-bottom: 20px;
+}
+
 .icon {
     border: 1px solid white;
     border-radius: 50%;
